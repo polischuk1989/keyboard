@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+
+}
+
+#textarea {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    width: 765px;
+    height: 204px;
+    background-color: aquamarine;
+}
+
+
+
+#keyboard {
+
+    width: 752px;
+    height: 260px;
+    background-color: rgb(99, 101, 104);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+
+
+}
+
+#text {
+    margin: 0 auto;
+    font-size: 31px;
+    color: aquamarine;
+    width: 321px;
+    height: 30px;
+    margin-bottom: 7px;
+
+
+}
+
+.kkey {
+    width: 37px;
+    height: 37px;
+    border: 1px solid black;
+    margin: 5px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 1);
+    font-size: 18px;
+
+
+}
+
+.kkey:hover {
+
+    cursor: pointer;
+
+    .kkey:active {
+        border-radius: 50%;
+        background-color: aquamarine;
+    }
+}
+
+.backspace {
+    background-color: rgb(5, 5, 5);
+    width: 103px;
+
+}
+
+.tab {
+    width: 52px;
+    background-color: rgb(5, 5, 5);
+}
+
+.capslock {
+    width: 91px;
+}
+
+.enter {
+    width: 97px;
+}
+
+.shift {
+    width: 94px;
+}
+
+.space {
+    width: 339px;
+    color: rgb(20, 20, 1);
+}
+
+.space:hover {
+    color: aquamarine;
+}
+
+.active {
+    background-color: chartreuse;
+    border-radius: 20%;
+}
